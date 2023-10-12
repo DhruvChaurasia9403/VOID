@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D469E6"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="#FF4081"
+        app:cardCornerRadius="40dp"
+        android:outlineSpotShadowColor="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp"
+        app:cardElevation="12dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fadingEdge="vertical"
+            android:fontFamily="@font/bungee"
+            android:padding="5dp"
+            android:text="21 DAYS"
+            android:textColor="@color/white"
+            android:textFontWeight="1000"
+            android:textSize="50dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:fontFamily="sans-serif"
+            android:text="BEGGINER"
+            android:textColor="@color/white"
+            android:textSize="35dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="#BDBDBD"
+        app:cardCornerRadius="40dp"
+        android:outlineSpotShadowColor="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="20dp"
+        app:cardElevation="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fadingEdge="vertical"
+            android:fontFamily="@font/bungee"
+            android:padding="5dp"
+            android:text="54 DAYS"
+            android:textColor="@color/white"
+            android:textFontWeight="1000"
+            android:textSize="50dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:fontFamily="sans-serif"
+            android:text="INTERMEDIATE"
+            android:textColor="@color/white"
+            android:textSize="35dp"/>
+        <ImageView
+            android:layout_margin="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/baseline_lock_24"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="#6E6E70"
+        app:cardCornerRadius="40dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="20dp"
+        app:cardElevation="35dp"
+        android:outlineSpotShadowColor="@color/black"
+        android:outlineAmbientShadowColor="@color/black">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fadingEdge="vertical"
+            android:fontFamily="@font/bungee"
+            android:padding="5dp"
+            android:text="75 DAYS"
+            android:textColor="@color/white"
+            android:textFontWeight="1000"
+            android:textSize="50dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:fontFamily="sans-serif"
+            android:text="ADVANCED"
+            android:textColor="@color/white"
+            android:textSize="35dp"/>
+        <ImageView
+            android:layout_margin="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/baseline_lock_24"/>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
